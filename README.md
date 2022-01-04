@@ -11,4 +11,4 @@ This app requires internet connection to show news headlines. Click on a headlin
 
 ## App Update
 
-To update the app, quit the app (not close it but quit the app from overview or the click on the square or 3 lines button and quit) and open the app to update.
+To update the app, quit the app (not close it but quit the app from overview or click on the square or 3 lines button and quit) and open the app to update.
