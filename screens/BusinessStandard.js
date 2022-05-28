@@ -51,24 +51,24 @@ export default class BusinessStandard extends React.Component {
             <View>
                 <Image
                 style={{
-                    marginTop: -20,
+                    paddingTop: -20,
                     alignSelf: "center",
-                    width: 300,
-                    height: 300,
+                    width: 250,
+                    height: 250,
                     resizeMode: 'contain'
                 }}
                 source={{uri: item.item[2]}}
                 />
                 <Text style={{
-                    marginTop: -40,
+                    paddingTop: -40,
                     fontSize: 20,
                     color: "white"
                 }}>
                     {item.item[0]}
                 </Text>
                 <Text style={{
-                    marginTop: 10,
-                    fontSize: 15,
+                    paddingTop: 5,
+                    fontSize: 14,
                     color: "white"
                 }}>
                     {item.item[3]}
@@ -91,7 +91,7 @@ export default class BusinessStandard extends React.Component {
                         }
                         centerComponent={
                             <Text style={{color: "white", textAlign: 'center'}}>
-                                {"ABC LIVE\n📰 THE NEWS HEADLINES🗞️"}
+                                {"ABC LIVE\n📰 THE NEWS HEADLINES🗞️\nBUSINESS STANDARD"}
                             </Text>
                         }
                         rightComponent={
@@ -104,7 +104,7 @@ export default class BusinessStandard extends React.Component {
                             </Text>
                         }
                     />
-                    <View style={{flex: 0.8}}>
+                    <View style={{flex: 0.9}}>
                         <View>
                         <FlatList
                             data={this.state.response}
@@ -114,7 +114,7 @@ export default class BusinessStandard extends React.Component {
                                         style={{
                                             marginBottom: 40,
                                             width: 350,
-                                            height: 450,
+                                            height: 425,
                                             backgroundColor: "#333",
                                             borderRadius: 30,
                                             alignItems: 'center',
@@ -130,14 +130,12 @@ export default class BusinessStandard extends React.Component {
                         />
                         </View>
                     </View>
-                    <View style={{flex: 0.2, justifyContent: 'center'}}>
-                        <Text style={{fontSize: 20, color: "white"}}>Compilation of Fin News Headlines</Text>
+                    <View style={{flex: 0.1, justifyContent: 'center'}}>
                         <TouchableOpacity
                             style={{
-                                marginTop: 10,
                                 backgroundColor: "white",
                                 width: 100,
-                                height: 30,
+                                height: 25,
                                 borderRadius: 30,
                                 justifyContent: 'center',
                                 alignSelf: 'center'

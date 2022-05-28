@@ -81,7 +81,7 @@ export default class Help extends React.Component {
                                 Sources of News
                             </Text>
                             <Text style={{fontSize: 15, color: "white"}}>
-                                These news are taken from Moneycontrol, Economic Times and Business Standard.
+                                These news are taken from Economic Times, Moneycontrol and Business Standard.
                             </Text>
                         </View>
                         <Text
@@ -93,7 +93,7 @@ export default class Help extends React.Component {
                                 textAlign: "center"
                             }}
                         >
-                            ABC Live v3
+                            ABC Live v3.1
                         </Text>
                     </ScrollView>
                 </View>

@@ -1,11 +1,9 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import Moneycontrol from './screens/Moneycontrol';
-import EconomicTimes from './screens/EconomicTimes';
-import BusinessStandard from './screens/BusinessStandard';
 import Help from './screens/Help';
 import CustomSidebarMenu from './components/CustomSidebarMenu';
+import Tab from './navigation/Tab';
 
 const Drawer = createDrawerNavigator();
 
@@ -26,28 +24,8 @@ export default class App extends React.Component {
           drawerContent={props => <CustomSidebarMenu {...props} />}
         >
           <Drawer.Screen
-            name="Brief Finance by Moneycontrol"
-            component={Moneycontrol}
-            options={{
-              headerStyle: {
-                  backgroundColor: "black"
-              },
-              headerTintColor: "white"
-            }}
-          />
-          <Drawer.Screen
-            name="Markets by Economic Times"
-            component={EconomicTimes}
-            options={{
-              headerStyle: {
-                backgroundColor: "black"
-              },
-              headerTintColor: "white"
-            }} 
-          />
-          <Drawer.Screen
-            name="More by Business Standard"
-            component={BusinessStandard}
+            name="News"
+            component={Tab}
             options={{
               headerStyle: {
                 backgroundColor: "black"
