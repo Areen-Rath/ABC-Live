@@ -46,5 +46,6 @@
 
 # ABC Live v6.1
 
-* Light and Dark themes extended to Status and Navigation Bar
+* Light and Dark themes extended to Status and Navigation Bars
+
 * Redundancies removed
