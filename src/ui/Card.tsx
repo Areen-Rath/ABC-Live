@@ -10,7 +10,7 @@ export default function Card({ news }: { news: object[] }) {
             style={{
                 marginBottom: 40,
                 width: 350,
-                height: 460,
+                height: 500,
                 backgroundColor: light ? "#d7eaff" : "#3f526b",
                 borderRadius: 30,
                 alignItems: "center",
