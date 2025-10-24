@@ -13,7 +13,7 @@
     "@react-navigation/drawer": "^7.3.9",
     "@react-navigation/material-top-tabs": "^7.2.10",
     "@react-navigation/native": "^7.1.6",
-    "expo": "^54.0.19",
+    "expo": "54.0.20",
     "expo-dev-client": "~6.0.16",
     "expo-file-system": "~19.0.17",
     "expo-navigation-bar": "~5.0.9",
