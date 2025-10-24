@@ -32,7 +32,7 @@ export default function Card({ news }: { news: object[] }) {
                 <Text
                     style={{
                         paddingTop: -40,
-                        fontSize: 20,
+                        fontSize: 18,
                         color: light ? "black" : "white"
                     }}
                 >
