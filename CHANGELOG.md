@@ -48,4 +48,5 @@
 
 * Light and Dark themes extended to Status and Navigation Bars
 * Drawer background colour changed to fit the rest of the app
+* Fixed issue where headline was being rewritten in description
 * Redundancies removed
