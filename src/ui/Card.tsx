@@ -10,7 +10,7 @@ export default function Card({ news }: { news: object[] }) {
             style={{
                 marginBottom: 40,
                 width: 350,
-                height: 500,
+                height: 460,
                 backgroundColor: light ? "#d7eaff" : "#3f526b",
                 borderRadius: 30,
                 alignItems: "center",
@@ -45,7 +45,7 @@ export default function Card({ news }: { news: object[] }) {
                         color: light ? "black" : "white"
                     }}
                 >
-                    {news[0].toString()}
+                    {news[3].toString()}
                 </Text>
             </View>
         </TouchableOpacity>
