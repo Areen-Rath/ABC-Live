@@ -47,5 +47,5 @@
 # ABC Live v6.1
 
 * Light and Dark themes extended to Status and Navigation Bars
-
+* Drawer background colour changed to fit the rest of the app
 * Redundancies removed
